@@ -8,14 +8,14 @@
 
 		<snapshotRepository>
 			<uniqueVersion>false</uniqueVersion>
-       			<id>nexus</id>
-			<url>http://c1dd806b4d49.ngrok.io/Flavour-snapshot/</url>
+       			<id>nexus-snapshots</id>
+			<url>http://localhost:8089/repository/medical-snapshot/</url>
     		</snapshotRepository>
 
     		<repository>
 
-       			<id>nexus</id>
-			<url>http://c1dd806b4d49.ngrok.io/repository/Flavour/</url>
+       			<id>nexus-releases</id>
+			<url>http://localhost:8089/repository/medical-release/</url>
     		</repository>
 	</distributionManagement>
 	<dependencies>

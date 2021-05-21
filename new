@@ -1,6 +1,6 @@
-if [ "$(docker ps -qa -f name=medicalstore)" ]; then
-    	if [ "$(docker ps -q -f name=medicalstore)" ]; then
-        			docker stop medicalstore;
+if [ "$($docker_path/docker ps -qa -f name=medicalstore)" ]; then
+    	if [ "$($docker_path/docker ps -q -f name=medicalstore)" ]; then
+        		$docker_path/docker stop medicalstore;
     			 fi
-    			   docker rm medicalstore;
+    			   $docker_path/docker rm medicalstore;
 			 fi

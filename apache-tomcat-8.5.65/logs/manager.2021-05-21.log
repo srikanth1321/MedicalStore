@@ -20,3 +20,5 @@
 21-May-2021 21:16:51.590 INFO [http-nio-5050-exec-2] org.apache.catalina.core.ApplicationContext.log HTMLManager: list: Listing contexts for virtual host 'localhost'
 21-May-2021 21:16:51.816 INFO [http-nio-5050-exec-3] org.apache.catalina.core.ApplicationContext.log HTMLManager: list: Listing contexts for virtual host 'localhost'
 21-May-2021 21:16:52.027 INFO [http-nio-5050-exec-5] org.apache.catalina.core.ApplicationContext.log HTMLManager: list: Listing contexts for virtual host 'localhost'
+21-May-2021 21:36:41.706 INFO [http-nio-5050-exec-10] org.apache.catalina.core.ApplicationContext.log HTMLManager: list: Listing contexts for virtual host 'localhost'
+21-May-2021 21:37:19.705 INFO [http-nio-5050-exec-3] org.apache.catalina.core.ApplicationContext.log HTMLManager: list: Listing contexts for virtual host 'localhost'
