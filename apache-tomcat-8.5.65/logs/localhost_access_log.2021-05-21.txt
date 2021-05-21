@@ -116,3 +116,4 @@
 127.0.0.1 - - [21/May/2021:23:48:42 +0530] "POST /MedicalStore/ADD HTTP/1.1" 500 3400
 127.0.0.1 - - [21/May/2021:23:48:46 +0530] "POST /MedicalStore/SEE HTTP/1.1" 500 3397
 127.0.0.1 - - [21/May/2021:23:48:52 +0530] "POST /MedicalStore/ADD HTTP/1.1" 404 682
+127.0.0.1 - tomcat [21/May/2021:23:56:05 +0530] "POST /manager/html/undeploy?path=/MedicalStore&org.apache.catalina.filters.CSRF_NONCE=9D05002F4F584079F0C3FADC7DD6F6A8 HTTP/1.1" 200 20199

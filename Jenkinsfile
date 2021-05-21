@@ -42,7 +42,7 @@ pipeline {
         }
         stage("archiveArtifacts") {
             steps {
-                   archiveArtifacts artifacts: 'target/MedicalStore.jar', followSymlinks: false
+                   archiveArtifacts artifacts: 'target/MedicalStore.war', followSymlinks: false
             }
         }
          stage("clean Workspace") {
