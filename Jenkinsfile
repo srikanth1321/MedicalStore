@@ -35,7 +35,7 @@ pipeline {
             steps {
 
                 script {
-      sh "$docker_path/docker build -t MedicalStore:${BUILD_NUMBER} ."
+      sh "$docker_path/docker build -t medicalstore:1.0 ."
 
             }
         }
