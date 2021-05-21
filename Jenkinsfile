@@ -1,20 +1,29 @@
 pipeline {
 
-     agent {
+    agent {
 
         label "master"
     }
     tools{
         maven "maven"
     }
-
+    triggers{ cron('H H(9-16)/2 * * 1-5') }
+    options {
+    buildDiscarder(logRotator(numToKeepStr: '5', artifactNumToKeepStr: '10'))
+    }
     stages {
-        stage('Build') {
+
+        stage("Maven Build") {
+
             steps {
-                sh 'mvn -B -DskipTests clean package'
+
+                script {
+                sh "mvn package -DskipTests=true"
+                }
+                }
+
             }
-        }
-        stage("SonarQube Analysis") {
+       stage("SonarQube Analysis") {
             steps {
                 withSonarQubeEnv('sonar') {
                 sh 'mvn sonar:sonar'
@@ -22,20 +31,30 @@ pipeline {
              }
            }
 
-	//stage("Trigger Nexus Job"){
-	  //  steps{
-		//build wait: true, job: '/Ice-Cream-Nexus'
-	    //}
+        stage('Build Docker Image') {
+            steps {
 
-//	 }
+                script {
+      sh "$docker_path/docker build -t MedicalStore:${BUILD_NUMBER} ."
 
-  	}
+            }
+        }
+        }
+        stage("archiveArtifacts") {
+            steps {
+                   archiveArtifacts artifacts: 'target/MedicalStore.jar', followSymlinks: false
+            }
+        }
+         stage("clean Workspace") {
+            steps {
+                    cleanWs()
+            }
+         }
+         stage("Trigger Nexus Job"){
+	        steps{
+		           build wait: true, job: 'MedicalStore2'
+               }
+              }
 
-//	post {
-  //        always {
-	//	  archiveArtifacts artifacts: 'target/My-Ice-Cream-Flavour!.war'
-      //       junit  'target/surefire-reports/*.xml'
-           //  }
-	//}
-
+    }
 }
