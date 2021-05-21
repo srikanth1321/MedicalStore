@@ -66,6 +66,8 @@ pipeline{
 
 	  	sh '$docker_path/docker run -d -p 8987:8080 --name=medicalstore medicalstore:1.0'
 
+      sh 'sleep 30s'
+
 		sh '$docker_path/docker ps'
 
 
