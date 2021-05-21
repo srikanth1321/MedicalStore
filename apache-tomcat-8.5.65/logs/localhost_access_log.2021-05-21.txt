@@ -80,3 +80,13 @@
 127.0.0.1 - tomcat [21/May/2021:23:10:20 +0530] "POST /manager/html/undeploy?path=/MedicalStore&org.apache.catalina.filters.CSRF_NONCE=0E15F5D97FF3DB484245E59E5678D92E HTTP/1.1" 200 20199
 127.0.0.1 - tomcat [21/May/2021:23:10:28 +0530] "POST /manager/html/upload?org.apache.catalina.filters.CSRF_NONCE=D93ABD91BFF63C61931C9E9A28218D83 HTTP/1.1" 200 21992
 127.0.0.1 - - [21/May/2021:23:10:30 +0530] "GET /MedicalStore/ HTTP/1.1" 404 768
+127.0.0.1 - tomcat [21/May/2021:23:31:01 +0530] "POST /manager/html/undeploy?path=/MedicalStore&org.apache.catalina.filters.CSRF_NONCE=200E5E0283517A7379087B88E7EC4231 HTTP/1.1" 200 20199
+127.0.0.1 - tomcat [21/May/2021:23:31:11 +0530] "POST /manager/html/upload?org.apache.catalina.filters.CSRF_NONCE=7196E89A2B07FA86D07047B57322B6FD HTTP/1.1" 200 22006
+127.0.0.1 - - [21/May/2021:23:31:14 +0530] "GET /MedicalStore/ HTTP/1.1" 200 1552
+127.0.0.1 - - [21/May/2021:23:31:20 +0530] "GET /MedicalStore/forgotpassword.jsp HTTP/1.1" 200 1616
+127.0.0.1 - - [21/May/2021:23:31:26 +0530] "GET /MedicalStore/register.jsp HTTP/1.1" 200 1851
+127.0.0.1 - - [21/May/2021:23:31:46 +0530] "GET /MedicalStore/ HTTP/1.1" 200 1552
+127.0.0.1 - - [21/May/2021:23:34:05 +0530] "GET /MedicalStore/ HTTP/1.1" 200 1552
+127.0.0.1 - - [21/May/2021:23:34:05 +0530] "GET /favicon.ico HTTP/1.1" 200 21630
+127.0.0.1 - - [21/May/2021:23:34:09 +0530] "GET /MedicalStore/forgotpassword.jsp HTTP/1.1" 200 1616
+127.0.0.1 - - [21/May/2021:23:34:14 +0530] "GET /MedicalStore/register.jsp HTTP/1.1" 200 1851

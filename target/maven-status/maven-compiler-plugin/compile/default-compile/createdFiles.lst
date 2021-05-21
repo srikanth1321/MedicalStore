@@ -1,6 +1,6 @@
-controller/SeeRecipy.class
+controller/SeeMedicine.class
 controller/UserLoginController.class
-controller/AddRecipy.class
+controller/AddMedicine.class
 model/User.class
 service/UserService.class
 db/UserDb.class

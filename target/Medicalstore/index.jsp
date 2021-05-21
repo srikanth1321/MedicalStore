@@ -49,20 +49,20 @@ span.psw {
 }
 </style>
 </head>
-<body style="background-color: #CD5C5C">
-	<h1>My ICE cREAM Recipy :)</h1><br><br>
-	<h3 style="text-align:center">Login or Signup to Record your special Recipy<h3>
+<body style="background-color: Cream">
+	<h1>My MedicalStore</h1><br><br>
+	<h3 style="text-align:center">Login or Signup to Order Medicines<h3>
 	<br><form action="Login" method="post">
 	  <div class="container" >
 	    <label><b>Email</b></label>
 	    <input type="text" placeholder="Enter Email" name="email" required>
-	
+
 	    <label><b>Password</b></label>
 	    <input type="password" placeholder="Enter Password" name="password" required>
-	        
+
 	    <button type="submit">Login</button>
 	  </div>
-	
+
 	  <div class="container" style="background-color:#f1f1f1">
 	    <span class="psw"><a href="forgotpassword.jsp">Forgot password?</a>&nbsp &nbsp <a href="register.jsp" id="register">New Chef ?</a> </span>
 	  </div>
