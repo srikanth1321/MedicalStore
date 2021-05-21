@@ -1,15 +1,6 @@
-FROM maven:3.6.1-jdk-8 as maven_builder
-
-WORKDIR /app
-
-ADD pom.xml /app
-
-RUN ["/usr/local/bin/mvn-entrypoint.sh", "mvn", "verify", "clean", "--fail-never"]
-
-ADD . /app 
-
-RUN ["mvn","clean","install","-T","2C","-DskipTests=true"]
-
-FROM tomcat:8.5.43-jdk8
-
-COPY --from=maven_builder /app/target/*.war /usr/local/tomcat/webapps
+FROM openjdk:8-jdk-alpine
+RUN addgroup -S spring && adduser -S spring -G spring
+USER spring:spring
+ARG JAR_FILE=target/*.jar
+COPY ${JAR_FILE} app.jar
+ENTRYPOINT ["java","-jar","/app.jar"]
