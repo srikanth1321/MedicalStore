@@ -1,4 +1,4 @@
-FROM maven:3.6.1-jdk-11 as maven_builder
+FROM maven:3.6.1-jdk-8 as maven_builder
 
 WORKDIR /app
 
@@ -10,6 +10,6 @@ ADD . /app
 
 RUN ["mvn","clean","install","-T","2C","-DskipTests=true"]
 
-FROM tomcat:8.5.65-jdk11
+FROM tomcat:8.5.65-jdk8
 
 COPY --from=maven_builder /app/target/*.war /Users/srikanthgirimaiahgari/Desktop/Medicalstore/apache-tomcat-8.5.65/webapps/
