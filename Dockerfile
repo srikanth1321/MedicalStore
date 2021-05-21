@@ -12,4 +12,4 @@ RUN ["mvn","clean","install","-T","2C","-DskipTests=true"]
 
 FROM tomcat:8.5.66-jdk11-openjdk-buster
 
-// COPY --from=maven_builder /app/target/*.war /Users/srikanthgirimaiahgari/Desktop/Medicalstore/apache-tomcat-8.5.65/webapps/
+COPY --from=maven_builder /app/target/*.war /Users/srikanthgirimaiahgari/Desktop/Medicalstore/apache-tomcat-8.5.65/webapps/
