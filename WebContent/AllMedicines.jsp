@@ -14,7 +14,7 @@
 }
 </style>
 </head>
-<body style="background-color:#ffae33">
+<body style="background-color:red">
 <h1 class="mid">MedicalStore</h1>
   <%
 

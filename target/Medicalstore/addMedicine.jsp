@@ -20,7 +20,7 @@ table,th
 </style>
 </head>
 <body style="background-color:#ffae33">
-<h1 class="mid">Your Medicine!</h1><br><br>
+<h1 class="mid">Your Medicine</h1><br><br>
 <h2 style="text-align:center">
 <%=request.getAttribute("result").toString()%>
 </h2>
