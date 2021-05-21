@@ -27,20 +27,20 @@ public class UserServiceTest {
 		User u1=new User("RAM","RAJ","1234","raj@devops.com");
 		assertEquals(true,new UserService().doRegistration(u1));
 	}
-        
+
         @Test
-	public void testSeeRecipies() {
+	public void testseeMedicine() {
 		UserService service = new UserService();
 		Map<String,String> m = new HashMap<String,String>();
-		m = service.seeRecipies();
-		assertEquals(m,new UserService().seeRecipies());
+		m = service.seeMedicines();
+		assertEquals(m,new UserService().seeMedicines());
 	}
 	@Test
-	public void testAddRecipies() {
+	public void testaddMedicine() {
 		UserService service = new UserService();
-	
-		String list= service.addRecipies("Dairy","Milk");
-		assertEquals(list,new UserService().addRecipies("Dairy","Milk"));
+
+		String list= service.AddMedicines("fever","cold");
+		assertEquals(list,new UserService().AddMedicines("fever","cold"));
 	}
 
 }

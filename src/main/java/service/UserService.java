@@ -45,7 +45,7 @@ public class UserService {
 					user.setPassword(user.getPassword());
 					entry.setValue(user);
 					isUpdated = true;
-					
+
 				}
 			}
 
@@ -64,16 +64,16 @@ public class UserService {
 		return isCreated;
 	}
 
-	public Map<String,String> seeRecipies() {
+	public Map<String,String>seeMedicines() {
 
-		
-		return UserDb.getAllRecipies();
+
+		return UserDb.getAllMedicine();
 	}
 
-	public String addRecipies(String rname, String recipy) {
+	public String AddMedicines(String rname, String recipy) {
 
-		UserDb.newrecipy.put(rname,recipy);
-		return rname+"----)"+ UserDb.getRecipy(rname);
+		UserDb.newmedicine.put(rname,recipy);
+		return rname+"----)"+ UserDb.getMedicine(rname);
 	}
 
 }
