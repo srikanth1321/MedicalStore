@@ -1,0 +1,2 @@
+22-May-2021 00:21:23.587 INFO [http-nio-5050-exec-60] org.apache.catalina.core.ApplicationContext.log HTMLManager: undeploy: Undeploying web application at '/MedicalStore'
+22-May-2021 00:21:23.592 INFO [http-nio-5050-exec-60] org.apache.catalina.core.ApplicationContext.log HTMLManager: list: Listing contexts for virtual host 'localhost'
