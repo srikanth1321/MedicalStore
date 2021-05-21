@@ -49,7 +49,7 @@ span.psw {
 }
 </style>
 </head>
-<body style="background-color:cream">
+<body style="background-color:white">
 	<h1>My MedicalStore</h1><br><br>
 	<h3 style="text-align:center">Login or Signup to Order Medicines<h3>
 	<br><form action="Login" method="post">
@@ -64,7 +64,7 @@ span.psw {
 	  </div>
 
 	  <div class="container" style="background-color:#f1f1f1">
-	    <span class="psw"><a href="forgotpassword.jsp">Forgot password?</a>&nbsp &nbsp <a href="register.jsp" id="register">New Chef ?</a> </span>
+	    <span class="psw"><a href="forgotpassword.jsp">Forgot password?</a>&nbsp &nbsp <a href="register.jsp" id="register">New user?</a> </span>
 	  </div>
 </form>
 </body>

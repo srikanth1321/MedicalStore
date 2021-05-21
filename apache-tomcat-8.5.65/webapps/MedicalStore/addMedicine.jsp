@@ -19,7 +19,7 @@ table,th
 
 </style>
 </head>
-<body style="background-color:#ffae33">
+<body style="background-color:green">
 <h1 class="mid">Your Medicine</h1><br><br>
 <h2 style="text-align:center">
 <%=request.getAttribute("result").toString()%>

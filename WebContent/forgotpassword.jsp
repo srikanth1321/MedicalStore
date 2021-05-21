@@ -51,7 +51,7 @@ span.psw {
 }
 </style>
 </head>
-<body style="background-color:black">
+<body style="background-color:Yellow">
 	<h1>ForgotPassword</h1>
 	<form action="GetPassword" method="post">
 	  <div class="container">

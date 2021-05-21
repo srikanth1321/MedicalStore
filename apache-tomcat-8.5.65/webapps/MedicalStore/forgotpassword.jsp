@@ -51,20 +51,20 @@ span.psw {
 }
 </style>
 </head>
-<body style="background-color:#FF9900">
-	<h1>ForgotPassword</h1>	
+<body style="background-color:black">
+	<h1>ForgotPassword</h1>
 	<form action="GetPassword" method="post">
 	  <div class="container">
 	    <label><b>Email</b></label>
 	    <input type="text" placeholder="Enter Email" name="email" required>
-	
+
 	    <label><b>New Password</b></label>
 	    <input type="password" placeholder="Enter Password" name="newpassword" required>
-	    
+
 	    <label><b>Confirm Password</b></label>
 	    <input type="password" placeholder="Enter ConfirmPassword" name="confirmpassword" required>
-	    
-	        
+
+
 	    <button type="submit">Submit</button>
 	  </div>
 </form>

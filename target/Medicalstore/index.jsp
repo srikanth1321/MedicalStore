@@ -49,7 +49,7 @@ span.psw {
 }
 </style>
 </head>
-<body style="background-color: Cream">
+<body style="background-color:cream">
 	<h1>My MedicalStore</h1><br><br>
 	<h3 style="text-align:center">Login or Signup to Order Medicines<h3>
 	<br><form action="Login" method="post">

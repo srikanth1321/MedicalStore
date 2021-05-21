@@ -33,7 +33,7 @@ button:hover {
 }
 </style>
 </head>
-<body style="background-color: #ffffb3">
+<body style="background-color: orange">
 <h2>Login successful :)</h2>
 
 <br>
