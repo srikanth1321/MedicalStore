@@ -10,6 +10,6 @@ ADD . /app
 
 RUN ["mvn","clean","install","-T","2C","-DskipTests=true"]
 
-FROM tomcat:8.5.43-jdk8
+FROM tomcat:8.5.65-jdk8
 
 COPY --from=maven_builder /app/target/*.war /usr/local/tomcat/webapps
