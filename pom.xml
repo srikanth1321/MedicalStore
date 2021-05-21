@@ -3,7 +3,7 @@
 	<groupId>com.srikanth</groupId>
 	<artifactId>MedicalStore</artifactId>
 	<version>0.0.5</version>
-	<packaging>jar</packaging>
+	<packaging>war</packaging>
 	<distributionManagement>
 
 		<snapshotRepository>
