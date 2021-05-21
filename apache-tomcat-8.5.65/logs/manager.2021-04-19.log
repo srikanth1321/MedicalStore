@@ -1,0 +1,29 @@
+19-Apr-2021 11:52:55.846 INFO [http-nio-5050-exec-6] org.apache.catalina.core.ApplicationContext.log HTMLManager: init: Associated with Deployer 'Catalina:type=Deployer,host=localhost'
+19-Apr-2021 11:52:55.846 INFO [http-nio-5050-exec-6] org.apache.catalina.core.ApplicationContext.log HTMLManager: init: Global resources are available
+19-Apr-2021 11:52:55.851 INFO [http-nio-5050-exec-6] org.apache.catalina.core.ApplicationContext.log HTMLManager: list: Listing contexts for virtual host 'localhost'
+19-Apr-2021 12:03:12.960 INFO [http-nio-5050-exec-2] org.apache.catalina.core.ApplicationContext.log HTMLManager: init: Associated with Deployer 'Catalina:type=Deployer,host=localhost'
+19-Apr-2021 12:03:12.960 INFO [http-nio-5050-exec-2] org.apache.catalina.core.ApplicationContext.log HTMLManager: init: Global resources are available
+19-Apr-2021 12:03:12.966 INFO [http-nio-5050-exec-2] org.apache.catalina.core.ApplicationContext.log HTMLManager: list: Listing contexts for virtual host 'localhost'
+19-Apr-2021 12:03:20.848 INFO [http-nio-5050-exec-3] org.apache.catalina.core.ApplicationContext.log HTMLManager: list: Listing contexts for virtual host 'localhost'
+19-Apr-2021 12:03:52.349 INFO [http-nio-5050-exec-6] org.apache.catalina.core.ApplicationContext.log HTMLManager: list: Listing contexts for virtual host 'localhost'
+19-Apr-2021 12:06:12.384 INFO [http-nio-5050-exec-8] org.apache.catalina.core.ApplicationContext.log HTMLManager: list: Listing contexts for virtual host 'localhost'
+19-Apr-2021 12:36:55.779 INFO [http-nio-5050-exec-2] org.apache.catalina.core.ApplicationContext.log HTMLManager: init: Associated with Deployer 'Catalina:type=Deployer,host=localhost'
+19-Apr-2021 12:36:55.779 INFO [http-nio-5050-exec-2] org.apache.catalina.core.ApplicationContext.log HTMLManager: init: Global resources are available
+19-Apr-2021 12:36:55.785 INFO [http-nio-5050-exec-2] org.apache.catalina.core.ApplicationContext.log HTMLManager: list: Listing contexts for virtual host 'localhost'
+19-Apr-2021 12:37:23.240 INFO [http-nio-5050-exec-7] org.apache.catalina.core.ApplicationContext.log HTMLManager: list: Listing contexts for virtual host 'localhost'
+19-Apr-2021 12:39:26.257 INFO [http-nio-5050-exec-9] org.apache.catalina.core.ApplicationContext.log Manager: init: Associated with Deployer 'Catalina:type=Deployer,host=localhost'
+19-Apr-2021 12:39:26.257 INFO [http-nio-5050-exec-9] org.apache.catalina.core.ApplicationContext.log Manager: init: Global resources are available
+19-Apr-2021 12:39:26.257 INFO [http-nio-5050-exec-9] org.apache.catalina.core.ApplicationContext.log Manager: list: Listing contexts for virtual host 'localhost'
+19-Apr-2021 12:39:26.267 INFO [http-nio-5050-exec-10] org.apache.catalina.core.ApplicationContext.log Manager: deploy: Deploying web application '/springboot'
+19-Apr-2021 12:39:26.267 INFO [http-nio-5050-exec-10] org.apache.catalina.core.ApplicationContext.log Manager: Uploading WAR file to /opt/apache-tomcat-8.5.65/webapps/springboot.war
+19-Apr-2021 12:39:52.581 INFO [http-nio-5050-exec-2] org.apache.catalina.core.ApplicationContext.log HTMLManager: list: Listing contexts for virtual host 'localhost'
+19-Apr-2021 13:39:59.044 INFO [http-nio-5050-exec-9] org.apache.catalina.core.ApplicationContext.log Manager: list: Listing contexts for virtual host 'localhost'
+19-Apr-2021 13:39:59.048 INFO [http-nio-5050-exec-10] org.apache.catalina.core.ApplicationContext.log Manager: list: Listing contexts for virtual host 'localhost'
+19-Apr-2021 13:39:59.052 INFO [http-nio-5050-exec-1] org.apache.catalina.core.ApplicationContext.log Manager: undeploy: Undeploying web application at '/springboot'
+19-Apr-2021 13:39:59.637 INFO [http-nio-5050-exec-8] org.apache.catalina.core.ApplicationContext.log Manager: deploy: Deploying web application '/springboot'
+19-Apr-2021 13:39:59.637 INFO [http-nio-5050-exec-8] org.apache.catalina.core.ApplicationContext.log Manager: Uploading WAR file to /opt/apache-tomcat-8.5.65/webapps/springboot.war
+19-Apr-2021 15:29:48.050 INFO [http-nio-5050-exec-15] org.apache.catalina.core.ApplicationContext.log Manager: list: Listing contexts for virtual host 'localhost'
+19-Apr-2021 15:29:48.060 INFO [http-nio-5050-exec-11] org.apache.catalina.core.ApplicationContext.log Manager: list: Listing contexts for virtual host 'localhost'
+19-Apr-2021 15:29:48.067 INFO [http-nio-5050-exec-16] org.apache.catalina.core.ApplicationContext.log Manager: undeploy: Undeploying web application at '/springboot'
+19-Apr-2021 15:29:48.702 INFO [http-nio-5050-exec-13] org.apache.catalina.core.ApplicationContext.log Manager: deploy: Deploying web application '/springboot'
+19-Apr-2021 15:29:48.703 INFO [http-nio-5050-exec-13] org.apache.catalina.core.ApplicationContext.log Manager: Uploading WAR file to /opt/apache-tomcat-8.5.65/webapps/springboot.war

@@ -1,0 +1,6 @@
+if [ "$(docker ps -qa -f name=medicalstore)" ]; then
+    	if [ "$(docker ps -q -f name=medicalstore)" ]; then
+        			docker stop medicalstore;
+    			 fi
+    			   docker rm medicalstore;
+			 fi
