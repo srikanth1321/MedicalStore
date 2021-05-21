@@ -9,7 +9,7 @@
 		<snapshotRepository>
 			<uniqueVersion>false</uniqueVersion>
        			<id>nexus</id>
-			<url>http://c1dd806b4d49.ngrok.io/Flavour-snapshot/</url>
+			<url>http://localhost:8089/Flavour-snapshot/</url>
     		</snapshotRepository>
 
     		<repository>
