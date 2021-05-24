@@ -14,8 +14,8 @@
 
     		<repository>
 
-       			<id>nexus-releases</id>
-			<url>http://localhost:8089/repository/medical-release/</url>
+       			<id>nexus-snapshots</id>
+			<url>http://localhost:8089/repository/medicalstore/</url>
     		</repository>
 	</distributionManagement>
 	<dependencies>
@@ -35,7 +35,7 @@
 		<dependency>
 			<groupId>org.jacoco</groupId>
 			<artifactId>jacoco-maven-plugin</artifactId>
-			<version>0.8.7</version>
+			<version>0.8.6</version>
 		</dependency>
 
 		<dependency>
