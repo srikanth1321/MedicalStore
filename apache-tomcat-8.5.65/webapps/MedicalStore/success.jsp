@@ -7,7 +7,7 @@
 <style>
 .mid
 {
-  text-align: center;
+  text-align: left;
 }
 .siz
 {
@@ -33,12 +33,12 @@ button:hover {
 }
 </style>
 </head>
-<body style="background-color: orange">
-<h2>Login successful :)</h2>
+<body style="background-color:green">
+<h2>Login successful 👍😁</h2>
 
 <br>
 <br><br>
-<h1 class="mid col">Enter Your Medicines</h1>
+<h1 class="mid col">Search For Medicines</h1>
 <br>
 <br>
 <div class="mid siz">
@@ -54,7 +54,7 @@ button:hover {
 <label for="rname">Medicines name:</label><br>
   <input type="text" id="rname" name="rname" value=""><br><br>
  <textarea rows="10" cols="100" name="Medicines"></textarea><br>
-  <br><input type="submit" value="Add Medicines upto 10 rows">
+  <br><input type="submit" value="Add Medicines">
 </form>
 </th>
 </tr>

@@ -15,26 +15,30 @@
 }
 .col
 {
-  color: red;
+  color: white;
 }
 table, th, td {
-   padding: 60px 60px;
+   padding: 20px 60px;
    }
 button {
-    background-color:#FF0033;
-    color: white;
-    border: none;
-    cursor: pointer;
-
+  border: none;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  cursor: pointer;
 }
-
+button {background-color: #4CAF50;} /* Green */
 button:hover {
     opacity: 0.8;
 }
 </style>
 </head>
-<body style="background-color:green">
-<h2>Login successful 👍😁</h2>
+<body style="background-color:lightblue">
+<h2>Login successful</h2>
 
 <br>
 <br><br>
@@ -51,9 +55,9 @@ button:hover {
 </th>
 <th>
 <form action="ADD" method="post">
-<label for="rname">Medicines name:</label><br>
+<label for="rname">Medicine name:</label><br>
   <input type="text" id="rname" name="rname" value=""><br><br>
- <textarea rows="10" cols="100" name="Medicines"></textarea><br>
+ <textarea rows="10" cols="10" name="Medicines"></textarea><br>
   <br><input type="submit" value="Add Medicines">
 </form>
 </th>

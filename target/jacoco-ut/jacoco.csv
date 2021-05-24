@@ -1,0 +1,9 @@
+GROUP,PACKAGE,CLASS,INSTRUCTION_MISSED,INSTRUCTION_COVERED,BRANCH_MISSED,BRANCH_COVERED,LINE_MISSED,LINE_COVERED,COMPLEXITY_MISSED,COMPLEXITY_COVERED,METHOD_MISSED,METHOD_COVERED
+MedicalStore,controller,UserLoginController,76,0,6,0,21,0,5,0,2,0
+MedicalStore,controller,AddMedicine,37,0,0,0,10,0,2,0,2,0
+MedicalStore,controller,UserPasswordController,71,0,10,0,18,0,7,0,2,0
+MedicalStore,controller,SeeMedicine,31,0,0,0,9,0,2,0,2,0
+MedicalStore,controller,UserRegisterController,113,0,14,0,29,0,9,0,2,0
+MedicalStore,service,UserService,0,155,8,16,0,35,8,10,0,6
+MedicalStore,model,User,30,43,0,0,3,18,2,9,2,9
+MedicalStore,db,UserDb,2,92,1,3,1,18,1,5,0,4
