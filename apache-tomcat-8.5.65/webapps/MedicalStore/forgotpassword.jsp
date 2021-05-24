@@ -20,13 +20,16 @@ input[type=text], input[type=password] {
 }
 
 button {
-    background-color: #FFCCCC;
-    color: white;
-    padding: 14px 20px;
-    margin: 8px 0;
-    border: none;
-    cursor: pointer;
-    width: 100%;
+  background-color: #4CAF50;
+  border: none;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  cursor: pointer;
 }
 
 button:hover {
@@ -49,24 +52,33 @@ span.psw {
        float: none;
     }
 }
+table, th, td {
+   padding: 20px 60px;
+ }
 </style>
 </head>
 <body style="background-color:Yellow">
 	<h1>ForgotPassword</h1>
+  <table>
 	<form action="GetPassword" method="post">
-	  <div class="container">
-	    <label><b>Email</b></label>
-	    <input type="text" placeholder="Enter Email" name="email" required>
+	  <tr><div class="container">
+	    <th><label><b>Email</b></label></th>
+	    <th><input type="text" placeholder="Enter Email" name="email" required></th>
+</tr>
+<tr>
+	   <th> <label><b>New Password</b></label></th>
+	   <th> <input type="password" placeholder="Enter Password" name="newpassword" required></th>
+</tr>
+<tr>
+	   <th> <label><b>Confirm Password</b></label></th>
+	    <th><input type="password" placeholder="Enter ConfirmPassword" name="confirmpassword" required></th>
 
-	    <label><b>New Password</b></label>
-	    <input type="password" placeholder="Enter Password" name="newpassword" required>
-
-	    <label><b>Confirm Password</b></label>
-	    <input type="password" placeholder="Enter ConfirmPassword" name="confirmpassword" required>
-
-
-	    <button type="submit">Submit</button>
+</tr>
+<tr>
+	  <th>  <button type="submit">Submit</button></th>
 	  </div>
+  </tr>
+</table>
 </form>
 </body>
 </html>

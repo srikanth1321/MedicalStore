@@ -1162,3 +1162,185 @@ Number of records available: 4
 24-May-2021 13:36:29.595 INFO [http-nio-5050-exec-11] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
 24-May-2021 13:36:29.602 INFO [http-nio-5050-exec-11] org.apache.catalina.startup.HostConfig.deployWAR Deployment of web application archive [/Users/srikanthgirimaiahgari/Desktop/Medicalstore/apache-tomcat-8.5.65/webapps/MedicalStore.war] has finished in [859] ms
 Number of records available: 4
+24-May-2021 13:49:30.646 INFO [http-nio-5050-exec-30] org.apache.catalina.startup.HostConfig.undeploy Undeploying context [/MedicalStore]
+24-May-2021 13:49:40.578 INFO [http-nio-5050-exec-29] org.apache.catalina.startup.HostConfig.deployWAR Deploying web application archive [/Users/srikanthgirimaiahgari/Desktop/Medicalstore/apache-tomcat-8.5.65/webapps/MedicalStore.war]
+24-May-2021 13:49:41.670 INFO [http-nio-5050-exec-29] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+24-May-2021 13:49:41.680 INFO [http-nio-5050-exec-29] org.apache.catalina.startup.HostConfig.deployWAR Deployment of web application archive [/Users/srikanthgirimaiahgari/Desktop/Medicalstore/apache-tomcat-8.5.65/webapps/MedicalStore.war] has finished in [1,102] ms
+Number of records available: 4
+24-May-2021 14:01:56.133 INFO [http-nio-5050-exec-31] org.apache.catalina.startup.HostConfig.undeploy Undeploying context [/MedicalStore]
+24-May-2021 14:02:04.391 INFO [http-nio-5050-exec-37] org.apache.catalina.startup.HostConfig.deployWAR Deploying web application archive [/Users/srikanthgirimaiahgari/Desktop/Medicalstore/apache-tomcat-8.5.65/webapps/MedicalStore.war]
+24-May-2021 14:02:05.460 INFO [http-nio-5050-exec-37] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+24-May-2021 14:02:05.472 INFO [http-nio-5050-exec-37] org.apache.catalina.startup.HostConfig.deployWAR Deployment of web application archive [/Users/srikanthgirimaiahgari/Desktop/Medicalstore/apache-tomcat-8.5.65/webapps/MedicalStore.war] has finished in [1,079] ms
+24-May-2021 14:04:33.006 INFO [http-nio-5050-exec-41] org.apache.catalina.startup.HostConfig.undeploy Undeploying context [/MedicalStore]
+24-May-2021 14:04:40.678 INFO [http-nio-5050-exec-50] org.apache.catalina.startup.HostConfig.deployWAR Deploying web application archive [/Users/srikanthgirimaiahgari/Desktop/Medicalstore/apache-tomcat-8.5.65/webapps/MedicalStore.war]
+24-May-2021 14:04:41.599 INFO [http-nio-5050-exec-50] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+24-May-2021 14:04:41.607 INFO [http-nio-5050-exec-50] org.apache.catalina.startup.HostConfig.deployWAR Deployment of web application archive [/Users/srikanthgirimaiahgari/Desktop/Medicalstore/apache-tomcat-8.5.65/webapps/MedicalStore.war] has finished in [929] ms
+24-May-2021 14:31:28.989 INFO [http-nio-5050-exec-51] org.apache.catalina.startup.HostConfig.undeploy Undeploying context [/MedicalStore]
+24-May-2021 14:31:36.439 INFO [http-nio-5050-exec-53] org.apache.catalina.startup.HostConfig.deployWAR Deploying web application archive [/Users/srikanthgirimaiahgari/Desktop/Medicalstore/apache-tomcat-8.5.65/webapps/MedicalStore.war]
+24-May-2021 14:31:37.484 INFO [http-nio-5050-exec-53] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+24-May-2021 14:31:37.492 INFO [http-nio-5050-exec-53] org.apache.catalina.startup.HostConfig.deployWAR Deployment of web application archive [/Users/srikanthgirimaiahgari/Desktop/Medicalstore/apache-tomcat-8.5.65/webapps/MedicalStore.war] has finished in [1,052] ms
+24-May-2021 14:34:56.947 INFO [http-nio-5050-exec-61] org.apache.catalina.startup.HostConfig.undeploy Undeploying context [/MedicalStore]
+24-May-2021 14:35:03.898 INFO [http-nio-5050-exec-65] org.apache.catalina.startup.HostConfig.deployWAR Deploying web application archive [/Users/srikanthgirimaiahgari/Desktop/Medicalstore/apache-tomcat-8.5.65/webapps/MedicalStore.war]
+24-May-2021 14:35:04.787 INFO [http-nio-5050-exec-65] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+24-May-2021 14:35:04.793 INFO [http-nio-5050-exec-65] org.apache.catalina.startup.HostConfig.deployWAR Deployment of web application archive [/Users/srikanthgirimaiahgari/Desktop/Medicalstore/apache-tomcat-8.5.65/webapps/MedicalStore.war] has finished in [895] ms
+24-May-2021 14:37:23.854 INFO [http-nio-5050-exec-76] org.apache.catalina.startup.HostConfig.undeploy Undeploying context [/MedicalStore]
+24-May-2021 14:37:30.744 INFO [http-nio-5050-exec-77] org.apache.catalina.startup.HostConfig.deployWAR Deploying web application archive [/Users/srikanthgirimaiahgari/Desktop/Medicalstore/apache-tomcat-8.5.65/webapps/MedicalStore.war]
+24-May-2021 14:37:31.467 INFO [http-nio-5050-exec-77] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+24-May-2021 14:37:31.474 INFO [http-nio-5050-exec-77] org.apache.catalina.startup.HostConfig.deployWAR Deployment of web application archive [/Users/srikanthgirimaiahgari/Desktop/Medicalstore/apache-tomcat-8.5.65/webapps/MedicalStore.war] has finished in [730] ms
+24-May-2021 14:42:15.681 INFO [http-nio-5050-exec-82] org.apache.catalina.startup.HostConfig.undeploy Undeploying context [/MedicalStore]
+24-May-2021 14:42:16.192 INFO [ContainerBackgroundProcessor[StandardEngine[Catalina]]] org.apache.catalina.startup.HostConfig.undeploy Undeploying context [/MedicalStore]
+24-May-2021 14:42:22.717 INFO [http-nio-5050-exec-84] org.apache.catalina.startup.HostConfig.deployWAR Deploying web application archive [/Users/srikanthgirimaiahgari/Desktop/Medicalstore/apache-tomcat-8.5.65/webapps/MedicalStore.war]
+24-May-2021 14:42:23.477 INFO [http-nio-5050-exec-84] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+24-May-2021 14:42:23.482 INFO [http-nio-5050-exec-84] org.apache.catalina.startup.HostConfig.deployWAR Deployment of web application archive [/Users/srikanthgirimaiahgari/Desktop/Medicalstore/apache-tomcat-8.5.65/webapps/MedicalStore.war] has finished in [765] ms
+24-May-2021 14:46:08.220 INFO [http-nio-5050-exec-89] org.apache.catalina.startup.HostConfig.undeploy Undeploying context [/MedicalStore]
+24-May-2021 14:46:15.306 INFO [http-nio-5050-exec-90] org.apache.catalina.startup.HostConfig.deployWAR Deploying web application archive [/Users/srikanthgirimaiahgari/Desktop/Medicalstore/apache-tomcat-8.5.65/webapps/MedicalStore.war]
+24-May-2021 14:46:16.203 INFO [http-nio-5050-exec-90] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+24-May-2021 14:46:16.209 INFO [http-nio-5050-exec-90] org.apache.catalina.startup.HostConfig.deployWAR Deployment of web application archive [/Users/srikanthgirimaiahgari/Desktop/Medicalstore/apache-tomcat-8.5.65/webapps/MedicalStore.war] has finished in [903] ms
+24-May-2021 14:47:50.472 INFO [http-nio-5050-exec-98] org.apache.catalina.startup.HostConfig.undeploy Undeploying context [/MedicalStore]
+24-May-2021 14:48:05.845 INFO [http-nio-5050-exec-104] org.apache.catalina.startup.HostConfig.deployWAR Deploying web application archive [/Users/srikanthgirimaiahgari/Desktop/Medicalstore/apache-tomcat-8.5.65/webapps/MedicalStore.war]
+24-May-2021 14:48:06.689 INFO [http-nio-5050-exec-104] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+24-May-2021 14:48:06.697 INFO [http-nio-5050-exec-104] org.apache.catalina.startup.HostConfig.deployWAR Deployment of web application archive [/Users/srikanthgirimaiahgari/Desktop/Medicalstore/apache-tomcat-8.5.65/webapps/MedicalStore.war] has finished in [851] ms
+NOTE: Picked up JDK_JAVA_OPTIONS:  --add-opens=java.base/java.lang=ALL-UNNAMED --add-opens=java.base/java.io=ALL-UNNAMED --add-opens=java.base/java.util=ALL-UNNAMED --add-opens=java.base/java.util.concurrent=ALL-UNNAMED --add-opens=java.rmi/sun.rmi.transport=ALL-UNNAMED
+24-May-2021 15:44:09.445 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server version name:   Apache Tomcat/8.5.65
+24-May-2021 15:44:09.447 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server built:          Mar 30 2021 12:28:40 UTC
+24-May-2021 15:44:09.448 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server version number: 8.5.65.0
+24-May-2021 15:44:09.448 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Name:               Mac OS X
+24-May-2021 15:44:09.448 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Version:            10.15.7
+24-May-2021 15:44:09.448 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Architecture:          x86_64
+24-May-2021 15:44:09.448 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Java Home:             /Library/Java/JavaVirtualMachines/jdk-16.jdk/Contents/Home
+24-May-2021 15:44:09.448 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Version:           16+36-2231
+24-May-2021 15:44:09.448 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Vendor:            Oracle Corporation
+24-May-2021 15:44:09.448 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_BASE:         /Users/srikanthgirimaiahgari/Desktop/Medicalstore/apache-tomcat-8.5.65
+24-May-2021 15:44:09.448 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_HOME:         /Users/srikanthgirimaiahgari/Desktop/Medicalstore/apache-tomcat-8.5.65
+24-May-2021 15:44:09.449 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.lang=ALL-UNNAMED
+24-May-2021 15:44:09.449 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.io=ALL-UNNAMED
+24-May-2021 15:44:09.450 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.util=ALL-UNNAMED
+24-May-2021 15:44:09.450 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.util.concurrent=ALL-UNNAMED
+24-May-2021 15:44:09.450 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.rmi/sun.rmi.transport=ALL-UNNAMED
+24-May-2021 15:44:09.450 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.config.file=/Users/srikanthgirimaiahgari/Desktop/Medicalstore/apache-tomcat-8.5.65/conf/logging.properties
+24-May-2021 15:44:09.450 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.manager=org.apache.juli.ClassLoaderLogManager
+24-May-2021 15:44:09.450 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djdk.tls.ephemeralDHKeySize=2048
+24-May-2021 15:44:09.450 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.protocol.handler.pkgs=org.apache.catalina.webresources
+24-May-2021 15:44:09.450 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dorg.apache.catalina.security.SecurityListener.UMASK=0027
+24-May-2021 15:44:09.450 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dignore.endorsed.dirs=
+24-May-2021 15:44:09.450 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.base=/Users/srikanthgirimaiahgari/Desktop/Medicalstore/apache-tomcat-8.5.65
+24-May-2021 15:44:09.451 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.home=/Users/srikanthgirimaiahgari/Desktop/Medicalstore/apache-tomcat-8.5.65
+24-May-2021 15:44:09.451 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.io.tmpdir=/Users/srikanthgirimaiahgari/Desktop/Medicalstore/apache-tomcat-8.5.65/temp
+24-May-2021 15:44:09.451 INFO [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent The Apache Tomcat Native library which allows using OpenSSL was not found on the java.library.path: [/Users/srikanthgirimaiahgari/Library/Java/Extensions:/Library/Java/Extensions:/Network/Library/Java/Extensions:/System/Library/Java/Extensions:/usr/lib/java:.]
+24-May-2021 15:44:09.482 INFO [main] org.apache.coyote.AbstractProtocol.init Initializing ProtocolHandler ["http-nio-5050"]
+24-May-2021 15:44:09.503 SEVERE [main] org.apache.catalina.core.StandardService.initInternal Failed to initialize connector [Connector[HTTP/1.1-5050]]
+	org.apache.catalina.LifecycleException: Protocol handler initialization failed
+		at org.apache.catalina.connector.Connector.initInternal(Connector.java:1076)
+		at org.apache.catalina.util.LifecycleBase.init(LifecycleBase.java:136)
+		at org.apache.catalina.core.StandardService.initInternal(StandardService.java:552)
+		at org.apache.catalina.util.LifecycleBase.init(LifecycleBase.java:136)
+		at org.apache.catalina.core.StandardServer.initInternal(StandardServer.java:846)
+		at org.apache.catalina.util.LifecycleBase.init(LifecycleBase.java:136)
+		at org.apache.catalina.startup.Catalina.load(Catalina.java:639)
+		at org.apache.catalina.startup.Catalina.load(Catalina.java:662)
+		at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+		at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:78)
+		at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+		at java.base/java.lang.reflect.Method.invoke(Method.java:567)
+		at org.apache.catalina.startup.Bootstrap.load(Bootstrap.java:302)
+		at org.apache.catalina.startup.Bootstrap.main(Bootstrap.java:472)
+	Caused by: java.net.BindException: Address already in use
+		at java.base/sun.nio.ch.Net.bind0(Native Method)
+		at java.base/sun.nio.ch.Net.bind(Net.java:552)
+		at java.base/sun.nio.ch.ServerSocketChannelImpl.netBind(ServerSocketChannelImpl.java:336)
+		at java.base/sun.nio.ch.ServerSocketChannelImpl.bind(ServerSocketChannelImpl.java:294)
+		at java.base/sun.nio.ch.ServerSocketAdaptor.bind(ServerSocketAdaptor.java:88)
+		at org.apache.tomcat.util.net.NioEndpoint.bind(NioEndpoint.java:222)
+		at org.apache.tomcat.util.net.AbstractEndpoint.init(AbstractEndpoint.java:1143)
+		at org.apache.tomcat.util.net.AbstractJsseEndpoint.init(AbstractJsseEndpoint.java:222)
+		at org.apache.coyote.AbstractProtocol.init(AbstractProtocol.java:599)
+		at org.apache.coyote.http11.AbstractHttp11Protocol.init(AbstractHttp11Protocol.java:80)
+		at org.apache.catalina.connector.Connector.initInternal(Connector.java:1074)
+		... 13 more
+24-May-2021 15:44:09.503 INFO [main] org.apache.catalina.startup.Catalina.load Initialization processed in 387 ms
+24-May-2021 15:44:09.530 INFO [main] org.apache.catalina.core.StandardService.startInternal Starting service [Catalina]
+24-May-2021 15:44:09.530 INFO [main] org.apache.catalina.core.StandardEngine.startInternal Starting Servlet engine: [Apache Tomcat/8.5.65]
+24-May-2021 15:44:09.543 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployWAR Deploying web application archive [/Users/srikanthgirimaiahgari/Desktop/Medicalstore/apache-tomcat-8.5.65/webapps/TheVaccineStore-0.0.1-20210319.075326-22.war]
+24-May-2021 15:44:09.852 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployWAR Deployment of web application archive [/Users/srikanthgirimaiahgari/Desktop/Medicalstore/apache-tomcat-8.5.65/webapps/TheVaccineStore-0.0.1-20210319.075326-22.war] has finished in [308] ms
+24-May-2021 15:44:09.854 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployWAR Deploying web application archive [/Users/srikanthgirimaiahgari/Desktop/Medicalstore/apache-tomcat-8.5.65/webapps/springboot.war]
+24-May-2021 15:44:11.048 INFO [localhost-startStop-1] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+24-May-2021 15:44:11.053 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployWAR Deployment of web application archive [/Users/srikanthgirimaiahgari/Desktop/Medicalstore/apache-tomcat-8.5.65/webapps/springboot.war] has finished in [1,199] ms
+24-May-2021 15:44:11.054 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployWAR Deploying web application archive [/Users/srikanthgirimaiahgari/Desktop/Medicalstore/apache-tomcat-8.5.65/webapps/MedicalStore.war]
+24-May-2021 15:44:11.769 INFO [localhost-startStop-1] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+24-May-2021 15:44:11.778 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployWAR Deployment of web application archive [/Users/srikanthgirimaiahgari/Desktop/Medicalstore/apache-tomcat-8.5.65/webapps/MedicalStore.war] has finished in [724] ms
+24-May-2021 15:44:11.779 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/Users/srikanthgirimaiahgari/Desktop/Medicalstore/apache-tomcat-8.5.65/webapps/docs]
+24-May-2021 15:44:11.792 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/Users/srikanthgirimaiahgari/Desktop/Medicalstore/apache-tomcat-8.5.65/webapps/docs] has finished in [14] ms
+24-May-2021 15:44:11.793 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/Users/srikanthgirimaiahgari/Desktop/Medicalstore/apache-tomcat-8.5.65/webapps/manager]
+24-May-2021 15:44:11.818 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/Users/srikanthgirimaiahgari/Desktop/Medicalstore/apache-tomcat-8.5.65/webapps/manager] has finished in [25] ms
+24-May-2021 15:44:11.818 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/Users/srikanthgirimaiahgari/Desktop/Medicalstore/apache-tomcat-8.5.65/webapps/examples]
+24-May-2021 15:44:12.063 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/Users/srikanthgirimaiahgari/Desktop/Medicalstore/apache-tomcat-8.5.65/webapps/examples] has finished in [245] ms
+24-May-2021 15:44:12.063 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/Users/srikanthgirimaiahgari/Desktop/Medicalstore/apache-tomcat-8.5.65/webapps/ROOT]
+24-May-2021 15:44:12.087 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/Users/srikanthgirimaiahgari/Desktop/Medicalstore/apache-tomcat-8.5.65/webapps/ROOT] has finished in [24] ms
+24-May-2021 15:44:12.087 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/Users/srikanthgirimaiahgari/Desktop/Medicalstore/apache-tomcat-8.5.65/webapps/host-manager]
+24-May-2021 15:44:12.102 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/Users/srikanthgirimaiahgari/Desktop/Medicalstore/apache-tomcat-8.5.65/webapps/host-manager] has finished in [15] ms
+24-May-2021 15:44:12.104 INFO [main] org.apache.catalina.startup.Catalina.start Server startup in 2600 ms
+24-May-2021 15:44:12.111 SEVERE [main] org.apache.catalina.core.StandardServer.await StandardServer.await: create[localhost:8005]: 
+	java.net.BindException: Address already in use
+		at java.base/sun.nio.ch.Net.bind0(Native Method)
+		at java.base/sun.nio.ch.Net.bind(Net.java:552)
+		at java.base/sun.nio.ch.Net.bind(Net.java:541)
+		at java.base/sun.nio.ch.NioSocketImpl.bind(NioSocketImpl.java:643)
+		at java.base/java.net.ServerSocket.bind(ServerSocket.java:395)
+		at java.base/java.net.ServerSocket.<init>(ServerSocket.java:281)
+		at org.apache.catalina.core.StandardServer.await(StandardServer.java:421)
+		at org.apache.catalina.startup.Catalina.await(Catalina.java:776)
+		at org.apache.catalina.startup.Catalina.start(Catalina.java:722)
+		at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+		at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:78)
+		at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+		at java.base/java.lang.reflect.Method.invoke(Method.java:567)
+		at org.apache.catalina.startup.Bootstrap.start(Bootstrap.java:342)
+		at org.apache.catalina.startup.Bootstrap.main(Bootstrap.java:473)
+24-May-2021 15:44:12.111 INFO [main] org.apache.coyote.AbstractProtocol.pause Pausing ProtocolHandler ["http-nio-5050"]
+24-May-2021 15:44:12.111 INFO [main] org.apache.catalina.core.StandardService.stopInternal Stopping service [Catalina]
+24-May-2021 15:44:12.130 INFO [main] org.apache.coyote.AbstractProtocol.stop Stopping ProtocolHandler ["http-nio-5050"]
+24-May-2021 15:44:12.131 INFO [main] org.apache.coyote.AbstractProtocol.destroy Destroying ProtocolHandler ["http-nio-5050"]
+24-May-2021 15:44:24.109 INFO [http-nio-5050-exec-107] org.apache.catalina.startup.HostConfig.undeploy Undeploying context [/MedicalStore]
+24-May-2021 15:44:30.243 INFO [http-nio-5050-exec-114] org.apache.catalina.startup.HostConfig.deployWAR Deploying web application archive [/Users/srikanthgirimaiahgari/Desktop/Medicalstore/apache-tomcat-8.5.65/webapps/MedicalStore.war]
+24-May-2021 15:44:31.091 INFO [http-nio-5050-exec-114] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+24-May-2021 15:44:31.099 INFO [http-nio-5050-exec-114] org.apache.catalina.startup.HostConfig.deployWAR Deployment of web application archive [/Users/srikanthgirimaiahgari/Desktop/Medicalstore/apache-tomcat-8.5.65/webapps/MedicalStore.war] has finished in [856] ms
+24-May-2021 15:49:15.740 INFO [http-nio-5050-exec-112] org.apache.catalina.startup.HostConfig.undeploy Undeploying context [/MedicalStore]
+24-May-2021 15:49:30.475 INFO [http-nio-5050-exec-118] org.apache.catalina.startup.HostConfig.deployWAR Deploying web application archive [/Users/srikanthgirimaiahgari/Desktop/Medicalstore/apache-tomcat-8.5.65/webapps/MedicalStore.war]
+24-May-2021 15:49:31.379 INFO [http-nio-5050-exec-118] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+24-May-2021 15:49:31.385 INFO [http-nio-5050-exec-118] org.apache.catalina.startup.HostConfig.deployWAR Deployment of web application archive [/Users/srikanthgirimaiahgari/Desktop/Medicalstore/apache-tomcat-8.5.65/webapps/MedicalStore.war] has finished in [910] ms
+24-May-2021 15:59:07.825 INFO [http-nio-5050-exec-124] org.apache.catalina.startup.HostConfig.undeploy Undeploying context [/MedicalStore]
+24-May-2021 15:59:15.269 INFO [http-nio-5050-exec-126] org.apache.catalina.startup.HostConfig.deployWAR Deploying web application archive [/Users/srikanthgirimaiahgari/Desktop/Medicalstore/apache-tomcat-8.5.65/webapps/MedicalStore.war]
+24-May-2021 15:59:16.146 INFO [http-nio-5050-exec-126] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+24-May-2021 15:59:16.152 INFO [http-nio-5050-exec-126] org.apache.catalina.startup.HostConfig.deployWAR Deployment of web application archive [/Users/srikanthgirimaiahgari/Desktop/Medicalstore/apache-tomcat-8.5.65/webapps/MedicalStore.war] has finished in [883] ms
+24-May-2021 16:03:03.183 INFO [http-nio-5050-exec-140] org.apache.catalina.startup.HostConfig.undeploy Undeploying context [/MedicalStore]
+24-May-2021 16:03:11.125 INFO [http-nio-5050-exec-137] org.apache.catalina.startup.HostConfig.deployWAR Deploying web application archive [/Users/srikanthgirimaiahgari/Desktop/Medicalstore/apache-tomcat-8.5.65/webapps/MedicalStore.war]
+24-May-2021 16:03:11.918 INFO [http-nio-5050-exec-137] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+24-May-2021 16:03:11.924 INFO [http-nio-5050-exec-137] org.apache.catalina.startup.HostConfig.deployWAR Deployment of web application archive [/Users/srikanthgirimaiahgari/Desktop/Medicalstore/apache-tomcat-8.5.65/webapps/MedicalStore.war] has finished in [799] ms
+24-May-2021 16:04:12.833 INFO [http-nio-5050-exec-144] org.apache.catalina.startup.HostConfig.undeploy Undeploying context [/MedicalStore]
+24-May-2021 16:04:21.381 INFO [http-nio-5050-exec-148] org.apache.catalina.startup.HostConfig.deployWAR Deploying web application archive [/Users/srikanthgirimaiahgari/Desktop/Medicalstore/apache-tomcat-8.5.65/webapps/MedicalStore.war]
+24-May-2021 16:04:22.097 INFO [http-nio-5050-exec-148] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+24-May-2021 16:04:22.105 INFO [http-nio-5050-exec-148] org.apache.catalina.startup.HostConfig.deployWAR Deployment of web application archive [/Users/srikanthgirimaiahgari/Desktop/Medicalstore/apache-tomcat-8.5.65/webapps/MedicalStore.war] has finished in [725] ms
+24-May-2021 16:10:22.871 INFO [http-nio-5050-exec-150] org.apache.catalina.startup.HostConfig.undeploy Undeploying context [/MedicalStore]
+24-May-2021 16:10:30.838 INFO [http-nio-5050-exec-159] org.apache.catalina.startup.HostConfig.deployWAR Deploying web application archive [/Users/srikanthgirimaiahgari/Desktop/Medicalstore/apache-tomcat-8.5.65/webapps/MedicalStore.war]
+24-May-2021 16:10:31.638 INFO [http-nio-5050-exec-159] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+24-May-2021 16:10:31.643 INFO [http-nio-5050-exec-159] org.apache.catalina.startup.HostConfig.deployWAR Deployment of web application archive [/Users/srikanthgirimaiahgari/Desktop/Medicalstore/apache-tomcat-8.5.65/webapps/MedicalStore.war] has finished in [805] ms
+24-May-2021 17:02:54.869 INFO [http-nio-5050-exec-169] org.apache.catalina.startup.HostConfig.undeploy Undeploying context [/MedicalStore]
+24-May-2021 17:03:01.903 INFO [http-nio-5050-exec-160] org.apache.catalina.startup.HostConfig.deployWAR Deploying web application archive [/Users/srikanthgirimaiahgari/Desktop/Medicalstore/apache-tomcat-8.5.65/webapps/MedicalStore.war]
+24-May-2021 17:03:03.419 INFO [http-nio-5050-exec-160] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+24-May-2021 17:03:03.427 INFO [http-nio-5050-exec-160] org.apache.catalina.startup.HostConfig.deployWAR Deployment of web application archive [/Users/srikanthgirimaiahgari/Desktop/Medicalstore/apache-tomcat-8.5.65/webapps/MedicalStore.war] has finished in [1,524] ms
+24-May-2021 17:04:41.032 INFO [http-nio-5050-exec-170] org.apache.catalina.startup.HostConfig.undeploy Undeploying context [/MedicalStore]
+24-May-2021 17:04:54.415 INFO [http-nio-5050-exec-162] org.apache.catalina.startup.HostConfig.deployWAR Deploying web application archive [/Users/srikanthgirimaiahgari/Desktop/Medicalstore/apache-tomcat-8.5.65/webapps/MedicalStore.war]
+24-May-2021 17:04:55.674 INFO [http-nio-5050-exec-162] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+24-May-2021 17:04:55.682 INFO [http-nio-5050-exec-162] org.apache.catalina.startup.HostConfig.deployWAR Deployment of web application archive [/Users/srikanthgirimaiahgari/Desktop/Medicalstore/apache-tomcat-8.5.65/webapps/MedicalStore.war] has finished in [1,267] ms
+24-May-2021 17:10:12.130 INFO [http-nio-5050-exec-182] org.apache.catalina.startup.HostConfig.undeploy Undeploying context [/MedicalStore]
+24-May-2021 17:11:45.023 INFO [http-nio-5050-exec-189] org.apache.catalina.startup.HostConfig.deployWAR Deploying web application archive [/Users/srikanthgirimaiahgari/Desktop/Medicalstore/apache-tomcat-8.5.65/webapps/MedicalStore.war]
+24-May-2021 17:11:45.994 INFO [http-nio-5050-exec-189] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+24-May-2021 17:11:46.001 INFO [http-nio-5050-exec-189] org.apache.catalina.startup.HostConfig.deployWAR Deployment of web application archive [/Users/srikanthgirimaiahgari/Desktop/Medicalstore/apache-tomcat-8.5.65/webapps/MedicalStore.war] has finished in [978] ms
+24-May-2021 17:22:59.950 INFO [http-nio-5050-exec-190] org.apache.catalina.startup.HostConfig.undeploy Undeploying context [/MedicalStore]
+24-May-2021 17:23:08.827 INFO [http-nio-5050-exec-193] org.apache.catalina.startup.HostConfig.deployWAR Deploying web application archive [/Users/srikanthgirimaiahgari/Desktop/Medicalstore/apache-tomcat-8.5.65/webapps/MedicalStore.war]
+24-May-2021 17:23:09.909 INFO [http-nio-5050-exec-193] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+24-May-2021 17:23:09.916 INFO [http-nio-5050-exec-193] org.apache.catalina.startup.HostConfig.deployWAR Deployment of web application archive [/Users/srikanthgirimaiahgari/Desktop/Medicalstore/apache-tomcat-8.5.65/webapps/MedicalStore.war] has finished in [1,090] ms
+24-May-2021 17:28:33.570 INFO [http-nio-5050-exec-201] org.apache.catalina.startup.HostConfig.undeploy Undeploying context [/MedicalStore]
+24-May-2021 17:28:42.016 INFO [http-nio-5050-exec-208] org.apache.catalina.startup.HostConfig.deployWAR Deploying web application archive [/Users/srikanthgirimaiahgari/Desktop/Medicalstore/apache-tomcat-8.5.65/webapps/MedicalStore.war]
+24-May-2021 17:28:42.871 INFO [http-nio-5050-exec-208] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+24-May-2021 17:28:42.877 INFO [http-nio-5050-exec-208] org.apache.catalina.startup.HostConfig.deployWAR Deployment of web application archive [/Users/srikanthgirimaiahgari/Desktop/Medicalstore/apache-tomcat-8.5.65/webapps/MedicalStore.war] has finished in [861] ms

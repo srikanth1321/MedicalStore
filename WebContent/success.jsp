@@ -19,20 +19,21 @@
 }
 table, th, td {
    padding: 20px 60px;
+   align: center;
    }
-button {
-  border: none;
-  color: white;
-  padding: 15px 32px;
-  text-align: center;
-  text-decoration: none;
-  display: inline-block;
-  font-size: 16px;
-  margin: 4px 2px;
-  cursor: pointer;
-}
-button {background-color: #4CAF50;} /* Green */
-button:hover {
+   .button {
+     background-color: #4CAF50;
+     border: none;
+     color: white;
+     padding: 15px 32px;
+     text-align: center;
+     text-decoration: none;
+     display: inline-block;
+     font-size: 16px;
+     margin: 4px 2px;
+     cursor: pointer;
+   }
+.button:hover {
     opacity: 0.8;
 }
 </style>
@@ -49,19 +50,16 @@ button:hover {
 <table>
 <tr>
 <th>
-<form action="SEE" method="post">
-  <input type="submit" value="See Medicines">
-</form>
+  <form action="ADD" method="post">
+  <label for="rname">Medicine name:</label><br>
+    <input type="text" placeholder="Enter Medicine" name="Medicines" required><br><br>
+    <br><input type="submit" class="button" value="Add Medicine">
+      </form>
+      <form action="SEE" method="post">
+      <input type="submit" class="button" value="See Medicine">
+          </form>
+
 </th>
-<th>
-<form action="ADD" method="post">
-<label for="rname">Medicine name:</label><br>
-  <input type="text" id="rname" name="rname" value=""><br><br>
- <textarea rows="10" cols="10" name="Medicines"></textarea><br>
-  <br><input type="submit" value="Add Medicines">
-</form>
-</th>
-</tr>
 </table>
 </div>
 

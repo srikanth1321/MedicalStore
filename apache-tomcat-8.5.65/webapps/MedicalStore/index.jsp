@@ -18,15 +18,17 @@ input[type=text], input[type=password] {
 }
 
 button {
-    background-color:orange ;
-    color: white;
-    padding: 14px 20px;
-    margin: 8px 0;
-    border: none;
-    cursor: pointer;
-    width: 100%;
+  background-color: #4CAF50;
+  border: none;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  cursor: pointer;
 }
-
 button:hover {
     opacity: 0.8;
 }
@@ -47,25 +49,36 @@ span.psw {
        float: none;
     }
 }
+table, th, td {
+   padding: 20px 60px;
+ }
 </style>
 </head>
 <body style="background-color:white">
-	<h1>My MedicalStore</h1><br><br>
-	<h3 style="text-align:center">Login or Signup to Order Medicines<h3>
-	<br><form action="Login" method="post">
+	<h1 style="text-align:center">MedicalStore</h1><br><br>
+	<h2>Login or Signup to Order Medicines<h2>
+    <table>
+      <tr>
+    <br><form action="Login" method="post">
 	  <div class="container" >
-	    <label><b>Email</b></label>
-	    <input type="text" placeholder="Enter Email" name="email" required>
+	    <th><label><b>Email</b></label></th>
+	    <th><input type="text" placeholder="Enter Email" name="email" required></th>
+</tr>
+<tr>
+	    <th><label><b>Password</b></label></th>
+	    <th><input type="password" placeholder="Enter Password" name="password" required></th>
+</tr>
+<tr>
+	    <th><button type="submit">Login</button></th>
 
-	    <label><b>Password</b></label>
-	    <input type="password" placeholder="Enter Password" name="password" required>
-
-	    <button type="submit">Login</button>
 	  </div>
-
-	  <div class="container" style="background-color:#f1f1f1">
+      </tr>
+<tr>
+     <th>
 	    <span class="psw"><a href="forgotpassword.jsp">Forgot password?</a>&nbsp &nbsp <a href="register.jsp" id="register">New user?</a> </span>
-	  </div>
+	  </th>
+  </tr>
+</table>
 </form>
 </body>
 </html>

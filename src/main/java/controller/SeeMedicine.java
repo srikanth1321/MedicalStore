@@ -28,7 +28,7 @@ public class SeeMedicine extends HttpServlet {
 		Map<String,String> m = new UserService().seeMedicines();
 		request.setAttribute("AllMedicines", m);
 
-		RequestDispatcher rd = request.getRequestDispatcher("/AllMedicines.jsp");
+		RequestDispatcher rd = request.getRequestDispatcher("AllMedicines.jsp");
 		rd.forward(request, response);
 	}
 }

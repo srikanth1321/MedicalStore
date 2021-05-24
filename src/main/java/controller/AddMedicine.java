@@ -28,7 +28,7 @@ public class AddMedicine extends HttpServlet{
                   String  result = new UserService().AddMedicines(rname,medicine);
 	           request.setAttribute("result", result);
 
-	        RequestDispatcher rd = request.getRequestDispatcher("/AddMedicine.jsp");
+	        RequestDispatcher rd = request.getRequestDispatcher("AddMedicine.jsp");
 				    rd.forward(request, response);
 	}
 }

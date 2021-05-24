@@ -49,29 +49,41 @@ span.psw {
        float: none;
     }
 }
+table, th, td {
+   padding: 20px 60px;
+ }
 </style>
 </head>
-<body style="background-color:blue">
+<body style="background-color:orange">
 	<h1>Registration Form</h1>
+	<table>
 	<form action="Register" method="post">
 	  <div class="container">
-
-		<label><b>First Name</b></label>
-	    <input type="text" placeholder="Enter First Name" name="firstname" required>
-
-	    <label><b>Last Name</b></label>
-	    <input type="text" placeholder="Enter Lastt Name" name="lastname" required>
-
-	    <label><b>Password</b></label>
-	    <input type="password" placeholder="Enter Password" name="pass" required>
-
-	    <label><b>Confirm Password</b></label>
-	    <input type="password" placeholder="Enter ConfirmPassword" name="confirmpass" required>
-
-	    <label><b>Email</b></label>
-	    <input type="text" placeholder="Enter Email" name="email" required>
-	    <button type="submit">Register</button>
+<tr>
+		<th><label><b>First Name</b></label></th>
+	    <th><input type="text" placeholder="Enter First Name" name="firstname" required></th>
+</tr>
+<tr>
+	    <th><label><b>Last Name</b></label></th>
+	    <th><input type="text" placeholder="Enter Lastt Name" name="lastname" required></th>
+</tr>
+	<tr>
+	    <th><label><b>Password</b></label></th>
+	    <th><input type="password" placeholder="Enter Password" name="pass" required></th>
+</tr>
+	<tr>
+	    <th><label><b>Confirm Password</b></label></th>
+	    <th><input type="password" placeholder="Enter ConfirmPassword" name="confirmpass" required></th>
+</tr>
+	<tr>
+	    <th><label><b>Email</b></label></th>
+	    <th><input type="text" placeholder="Enter Email" name="email" required><th>
+	</tr>
+	<tr>
+	    <th><button type="submit">Register</button><th>
+		</tr>
 	  </div>
+	</table>
 </form>
 </body>
 </html>
