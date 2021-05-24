@@ -159,3 +159,5 @@
 127.0.0.1 - - [24/May/2021:17:29:08 +0530] "POST /MedicalStore/SEE HTTP/1.1" 500 3397
 127.0.0.1 - - [24/May/2021:17:29:14 +0530] "GET /MedicalStore/forgotpassword.jsp HTTP/1.1" 200 1836
 127.0.0.1 - - [24/May/2021:17:29:32 +0530] "POST /MedicalStore/GetPassword HTTP/1.1" 200 -
+127.0.0.1 - - [24/May/2021:18:50:58 +0530] "POST /MedicalStore/Login HTTP/1.1" 200 1210
+127.0.0.1 - - [24/May/2021:18:51:21 +0530] "POST /MedicalStore/SEE HTTP/1.1" 404 682
