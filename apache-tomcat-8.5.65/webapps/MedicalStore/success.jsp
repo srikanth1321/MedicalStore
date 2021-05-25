@@ -7,7 +7,7 @@
 <style>
 .mid
 {
-  text-align: center;
+  text-align: left;
 }
 .siz
 {
@@ -15,49 +15,51 @@
 }
 .col
 {
-  color: red;
+  color: white;
 }
 table, th, td {
-   padding: 60px 60px;
+   padding: 20px 60px;
+   align: center;
    }
-button {
-    background-color:#FF0033;
-    color: white;
-    border: none;
-    cursor: pointer;
-    
-}
-
-button:hover {
+   .button {
+     background-color: #4CAF50;
+     border: none;
+     color: white;
+     padding: 15px 32px;
+     text-align: center;
+     text-decoration: none;
+     display: inline-block;
+     font-size: 16px;
+     margin: 4px 2px;
+     cursor: pointer;
+   }
+.button:hover {
     opacity: 0.8;
 }
 </style>
 </head>
-<body style="background-color: #ffffb3">
-<h2>Login successful :)</h2>
+<body style="background-color:lightblue">
+<h2>Login successful</h2>
 
 <br>
 <br><br>
-<h1 class="mid col">Enter Your Recipy</h1>
+<h1 class="mid col">Search For Medicines</h1>
 <br>
 <br>
 <div class="mid siz">
 <table>
 <tr>
 <th>
-<form action="SEE" method="post">
-  <input type="submit" value="See Recipies">
-</form>
+  <form action="ADD" method="post">
+  <label for="rname">Medicine name:</label><br>
+    <input type="text" placeholder="Enter Medicine" name="Medicines" required><br><br>
+    <br><input type="submit" class="button" value="Add Medicine">
+      </form>
+      <form action="SEE" method="post">
+      <input type="submit" class="button" value="See Medicine">
+          </form>
+
 </th>
-<th>
-<form action="ADD" method="post">
-<label for="rname">Recipy name:</label><br>
-  <input type="text" id="rname" name="rname" value=""><br><br>
- <textarea rows="10" cols="100" name="recipy"></textarea><br>
-  <br><input type="submit" value="Add Recipy upto 10 rows">
-</form>
-</th>
-</tr>
 </table>
 </div>
 

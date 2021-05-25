@@ -8,27 +8,27 @@
 		<servlet-name>Login</servlet-name>
 		<servlet-class>controller.UserLoginController</servlet-class>
 	</servlet>
-	
+
 	<servlet>
 		<servlet-name>Register</servlet-name>
 		<servlet-class>controller.UserRegisterController</servlet-class>
 	</servlet>
-	
+
 	<servlet>
 		<servlet-name>GetPassword</servlet-name>
 		<servlet-class>controller.UserPasswordController</servlet-class>
 	</servlet>
-	
+
 	<servlet>
 		<servlet-name>SEE</servlet-name>
-		<servlet-class>controller.SeeRecipy</servlet-class>
+		<servlet-class>controller.seeMedicine</servlet-class>
 	</servlet>
 
 	<servlet>
 		<servlet-name>ADD</servlet-name>
-		<servlet-class>controller.AddRecipy</servlet-class>
+		<servlet-class>controller.addMedicince</servlet-class>
 	</servlet>
-	
+
 
 
 	<servlet-mapping>
