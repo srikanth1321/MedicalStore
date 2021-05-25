@@ -11,6 +11,11 @@ pipeline {
     options {
     buildDiscarder(logRotator(numToKeepStr: '5', artifactNumToKeepStr: '10'))
     }
+    stage("clean Workspace") {
+       steps {
+               cleanWs()
+       }
+    }
     stages {
 
         stage("Maven Build") {
@@ -45,14 +50,9 @@ pipeline {
                    archiveArtifacts artifacts: 'target/MedicalStore.war', followSymlinks: false
             }
         }
-         stage("clean Workspace") {
-            steps {
-                    cleanWs()
-            }
-         }
          stage("Trigger Nexus Job"){
 	        steps{
-		           build wait: true, job: 'MedicalStore2'
+		           build : true, job: 'MedicalStore2'
                }
               }
 
