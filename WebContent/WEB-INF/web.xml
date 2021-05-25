@@ -21,12 +21,12 @@
 
 	<servlet>
 		<servlet-name>SEE</servlet-name>
-		<servlet-class>controller.seeMedicine</servlet-class>
+		<servlet-class>controller.SeeMedicine</servlet-class>
 	</servlet>
 
 	<servlet>
 		<servlet-name>ADD</servlet-name>
-		<servlet-class>controller.addMedicince</servlet-class>
+		<servlet-class>controller.AddMedicince</servlet-class>
 	</servlet>
 
 
