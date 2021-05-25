@@ -12,12 +12,6 @@ pipeline {
     buildDiscarder(logRotator(numToKeepStr: '5', artifactNumToKeepStr: '10'))
     }
     stages {
-
-    stage("clean Workspace") {
-       steps {
-               cleanWs()
-       }
-    }
         stage("Maven Build") {
 
             steps {
