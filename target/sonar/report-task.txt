@@ -1,0 +1,6 @@
+projectKey=MedicalStore
+serverUrl=http://localhost:9002
+serverVersion=8.9.0.43852
+dashboardUrl=http://localhost:9002/dashboard?id=MedicalStore
+ceTaskId=AXmiS6KqibwNLb-IK1gj
+ceTaskUrl=http://localhost:9002/api/ce/task?id=AXmiS6KqibwNLb-IK1gj

@@ -46,6 +46,13 @@ pipeline{
 	   }
 	   */
 
+     stage('Deploy'){
+
+        steps{
+
+              deploy adapters: [tomcat8(credentialsId: 'tomcat_cred', path: '', url: 'http://localhost:5050/')], contextPath: 'MedicalStore', war: '**/*.war'
+             }
+          }
 
 
 	stage('Run'){
@@ -70,13 +77,6 @@ pipeline{
 
 		sh '$docker_path/docker ps'
 
-    stage('Deploy'){
-
-       steps{
-
-             deploy adapters: [tomcat8(credentialsId: 'tomcat_cred', path: '', url: 'http://localhost:5050/')], contextPath: 'MedicalStore', war: '**/*.war'
-            }
-         }
 
 	   }
 
