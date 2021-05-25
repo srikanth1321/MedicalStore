@@ -50,7 +50,7 @@ pipeline{
 
         steps{
 
-              deploy adapters: [tomcat8(credentialsId: 'tomcat_cred', path: '', url: 'http://localhost:5050/')], contextPath: 'MedicalStore', war: '**/*.war'
+              deploy adapters: [tomcat8(credentialsId: 'tomcat', path: '', url: 'http://localhost:5050/')], contextPath: 'MedicalStore', war: '**/*.war'
              }
           }
 

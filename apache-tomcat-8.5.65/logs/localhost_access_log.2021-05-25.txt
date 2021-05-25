@@ -1,0 +1,9 @@
+127.0.0.1 - tomcat [25/May/2021:12:27:13 +0530] "GET /manager/text/list HTTP/1.1" 403 3446
+127.0.0.1 - - [25/May/2021:12:27:14 +0530] "GET / HTTP/1.1" 200 11156
+127.0.0.1 - - [25/May/2021:12:27:17 +0530] "GET /manager/html HTTP/1.1" 401 2499
+127.0.0.1 - tomcat [25/May/2021:12:27:25 +0530] "GET /manager/html HTTP/1.1" 200 24030
+127.0.0.1 - - [25/May/2021:12:27:25 +0530] "GET /favicon.ico HTTP/1.1" 200 21630
+127.0.0.1 - tomcat [25/May/2021:12:28:33 +0530] "POST /manager/html/undeploy;jsessionid=CB102651D3FECB990DC882AB7F41C4AD?path=/MedicalStore&org.apache.catalina.filters.CSRF_NONCE=B0618F81227701C97C863342911EA7D9 HTTP/1.1" 200 20199
+127.0.0.1 - tomcat [25/May/2021:12:28:46 +0530] "GET /manager/text/list HTTP/1.1" 403 3446
+127.0.0.1 - tomcat [25/May/2021:12:29:00 +0530] "GET /manager/status?org.apache.catalina.filters.CSRF_NONCE=0BCC97B33FA705F94E21F3394F3A9649 HTTP/1.1" 200 4711
+127.0.0.1 - tomcat [25/May/2021:12:29:07 +0530] "GET /manager/html/list?org.apache.catalina.filters.CSRF_NONCE=0BCC97B33FA705F94E21F3394F3A9649 HTTP/1.1" 200 20137
