@@ -137,3 +137,53 @@
 25-May-2021 13:52:06.024 INFO [http-nio-5050-exec-69] org.apache.catalina.core.ApplicationContext.log Manager: undeploy: Undeploying web application at '/MedicalStore'
 25-May-2021 13:52:06.548 INFO [http-nio-5050-exec-75] org.apache.catalina.core.ApplicationContext.log Manager: deploy: Deploying web application '/MedicalStore'
 25-May-2021 13:52:06.548 INFO [http-nio-5050-exec-75] org.apache.catalina.core.ApplicationContext.log Manager: Uploading WAR file to /Users/srikanthgirimaiahgari/Desktop/Medicalstore/apache-tomcat-8.5.65/webapps/MedicalStore.war
+25-May-2021 15:12:45.913 INFO [http-nio-5050-exec-91] org.apache.catalina.core.ApplicationContext.log Manager: list: Listing contexts for virtual host 'localhost'
+25-May-2021 15:12:45.918 INFO [http-nio-5050-exec-91] org.apache.catalina.core.ApplicationContext.log Manager: list: Listing contexts for virtual host 'localhost'
+25-May-2021 15:12:45.936 INFO [http-nio-5050-exec-86] org.apache.catalina.core.ApplicationContext.log Manager: undeploy: Undeploying web application at '/MedicalStore'
+25-May-2021 15:12:46.602 INFO [http-nio-5050-exec-85] org.apache.catalina.core.ApplicationContext.log Manager: deploy: Deploying web application '/MedicalStore'
+25-May-2021 15:12:46.602 INFO [http-nio-5050-exec-85] org.apache.catalina.core.ApplicationContext.log Manager: Uploading WAR file to /Users/srikanthgirimaiahgari/Desktop/Medicalstore/apache-tomcat-8.5.65/webapps/MedicalStore.war
+25-May-2021 15:12:48.616 INFO [http-nio-5050-exec-89] org.apache.catalina.core.ApplicationContext.log Manager: list: Listing contexts for virtual host 'localhost'
+25-May-2021 15:12:48.617 INFO [http-nio-5050-exec-83] org.apache.catalina.core.ApplicationContext.log Manager: list: Listing contexts for virtual host 'localhost'
+25-May-2021 15:12:48.635 INFO [http-nio-5050-exec-84] org.apache.catalina.core.ApplicationContext.log Manager: undeploy: Undeploying web application at '/MedicalStore'
+25-May-2021 15:12:49.160 INFO [http-nio-5050-exec-92] org.apache.catalina.core.ApplicationContext.log Manager: deploy: Deploying web application '/MedicalStore'
+25-May-2021 15:12:49.161 INFO [http-nio-5050-exec-92] org.apache.catalina.core.ApplicationContext.log Manager: Uploading WAR file to /Users/srikanthgirimaiahgari/Desktop/Medicalstore/apache-tomcat-8.5.65/webapps/MedicalStore.war
+25-May-2021 15:12:49.456 INFO [http-nio-5050-exec-88] org.apache.catalina.core.ApplicationContext.log Manager: list: Listing contexts for virtual host 'localhost'
+25-May-2021 15:12:49.457 INFO [http-nio-5050-exec-89] org.apache.catalina.core.ApplicationContext.log Manager: list: Listing contexts for virtual host 'localhost'
+25-May-2021 15:12:49.458 INFO [http-nio-5050-exec-83] org.apache.catalina.core.ApplicationContext.log Manager: undeploy: Undeploying web application at '/MedicalStore'
+25-May-2021 15:12:49.985 INFO [http-nio-5050-exec-84] org.apache.catalina.core.ApplicationContext.log Manager: deploy: Deploying web application '/MedicalStore'
+25-May-2021 15:12:49.985 INFO [http-nio-5050-exec-84] org.apache.catalina.core.ApplicationContext.log Manager: Uploading WAR file to /Users/srikanthgirimaiahgari/Desktop/Medicalstore/apache-tomcat-8.5.65/webapps/MedicalStore.war
+25-May-2021 15:12:50.216 INFO [http-nio-5050-exec-92] org.apache.catalina.core.ApplicationContext.log Manager: list: Listing contexts for virtual host 'localhost'
+25-May-2021 15:12:50.217 INFO [http-nio-5050-exec-82] org.apache.catalina.core.ApplicationContext.log Manager: list: Listing contexts for virtual host 'localhost'
+25-May-2021 15:12:50.218 INFO [http-nio-5050-exec-88] org.apache.catalina.core.ApplicationContext.log Manager: undeploy: Undeploying web application at '/MedicalStore'
+25-May-2021 15:12:50.735 INFO [http-nio-5050-exec-89] org.apache.catalina.core.ApplicationContext.log Manager: deploy: Deploying web application '/MedicalStore'
+25-May-2021 15:12:50.735 INFO [http-nio-5050-exec-89] org.apache.catalina.core.ApplicationContext.log Manager: Uploading WAR file to /Users/srikanthgirimaiahgari/Desktop/Medicalstore/apache-tomcat-8.5.65/webapps/MedicalStore.war
+25-May-2021 15:12:52.348 INFO [http-nio-5050-exec-82] org.apache.catalina.core.ApplicationContext.log Manager: list: Listing contexts for virtual host 'localhost'
+25-May-2021 15:12:52.350 INFO [http-nio-5050-exec-84] org.apache.catalina.core.ApplicationContext.log Manager: list: Listing contexts for virtual host 'localhost'
+25-May-2021 15:12:52.351 INFO [http-nio-5050-exec-93] org.apache.catalina.core.ApplicationContext.log Manager: undeploy: Undeploying web application at '/MedicalStore'
+25-May-2021 15:12:52.885 INFO [http-nio-5050-exec-84] org.apache.catalina.core.ApplicationContext.log Manager: deploy: Deploying web application '/MedicalStore'
+25-May-2021 15:12:52.885 INFO [http-nio-5050-exec-84] org.apache.catalina.core.ApplicationContext.log Manager: Uploading WAR file to /Users/srikanthgirimaiahgari/Desktop/Medicalstore/apache-tomcat-8.5.65/webapps/MedicalStore.war
+25-May-2021 15:22:58.701 INFO [http-nio-5050-exec-96] org.apache.catalina.core.ApplicationContext.log Manager: list: Listing contexts for virtual host 'localhost'
+25-May-2021 15:22:58.705 INFO [http-nio-5050-exec-96] org.apache.catalina.core.ApplicationContext.log Manager: list: Listing contexts for virtual host 'localhost'
+25-May-2021 15:22:58.708 INFO [http-nio-5050-exec-98] org.apache.catalina.core.ApplicationContext.log Manager: undeploy: Undeploying web application at '/MedicalStore'
+25-May-2021 15:22:59.249 INFO [http-nio-5050-exec-100] org.apache.catalina.core.ApplicationContext.log Manager: deploy: Deploying web application '/MedicalStore'
+25-May-2021 15:22:59.249 INFO [http-nio-5050-exec-100] org.apache.catalina.core.ApplicationContext.log Manager: Uploading WAR file to /Users/srikanthgirimaiahgari/Desktop/Medicalstore/apache-tomcat-8.5.65/webapps/MedicalStore.war
+25-May-2021 15:23:00.642 INFO [http-nio-5050-exec-97] org.apache.catalina.core.ApplicationContext.log Manager: list: Listing contexts for virtual host 'localhost'
+25-May-2021 15:23:00.643 INFO [http-nio-5050-exec-101] org.apache.catalina.core.ApplicationContext.log Manager: list: Listing contexts for virtual host 'localhost'
+25-May-2021 15:23:00.644 INFO [http-nio-5050-exec-105] org.apache.catalina.core.ApplicationContext.log Manager: undeploy: Undeploying web application at '/MedicalStore'
+25-May-2021 15:23:01.184 INFO [http-nio-5050-exec-101] org.apache.catalina.core.ApplicationContext.log Manager: deploy: Deploying web application '/MedicalStore'
+25-May-2021 15:23:01.184 INFO [http-nio-5050-exec-101] org.apache.catalina.core.ApplicationContext.log Manager: Uploading WAR file to /Users/srikanthgirimaiahgari/Desktop/Medicalstore/apache-tomcat-8.5.65/webapps/MedicalStore.war
+25-May-2021 15:23:01.448 INFO [http-nio-5050-exec-97] org.apache.catalina.core.ApplicationContext.log Manager: list: Listing contexts for virtual host 'localhost'
+25-May-2021 15:23:01.448 INFO [http-nio-5050-exec-96] org.apache.catalina.core.ApplicationContext.log Manager: list: Listing contexts for virtual host 'localhost'
+25-May-2021 15:23:01.449 INFO [http-nio-5050-exec-103] org.apache.catalina.core.ApplicationContext.log Manager: undeploy: Undeploying web application at '/MedicalStore'
+25-May-2021 15:23:01.966 INFO [http-nio-5050-exec-101] org.apache.catalina.core.ApplicationContext.log Manager: deploy: Deploying web application '/MedicalStore'
+25-May-2021 15:23:01.966 INFO [http-nio-5050-exec-101] org.apache.catalina.core.ApplicationContext.log Manager: Uploading WAR file to /Users/srikanthgirimaiahgari/Desktop/Medicalstore/apache-tomcat-8.5.65/webapps/MedicalStore.war
+25-May-2021 15:23:02.241 INFO [http-nio-5050-exec-105] org.apache.catalina.core.ApplicationContext.log Manager: list: Listing contexts for virtual host 'localhost'
+25-May-2021 15:23:02.242 INFO [http-nio-5050-exec-96] org.apache.catalina.core.ApplicationContext.log Manager: list: Listing contexts for virtual host 'localhost'
+25-May-2021 15:23:02.243 INFO [http-nio-5050-exec-106] org.apache.catalina.core.ApplicationContext.log Manager: undeploy: Undeploying web application at '/MedicalStore'
+25-May-2021 15:23:02.754 INFO [http-nio-5050-exec-105] org.apache.catalina.core.ApplicationContext.log Manager: deploy: Deploying web application '/MedicalStore'
+25-May-2021 15:23:02.754 INFO [http-nio-5050-exec-105] org.apache.catalina.core.ApplicationContext.log Manager: Uploading WAR file to /Users/srikanthgirimaiahgari/Desktop/Medicalstore/apache-tomcat-8.5.65/webapps/MedicalStore.war
+25-May-2021 15:23:04.398 INFO [http-nio-5050-exec-96] org.apache.catalina.core.ApplicationContext.log Manager: list: Listing contexts for virtual host 'localhost'
+25-May-2021 15:23:04.399 INFO [http-nio-5050-exec-97] org.apache.catalina.core.ApplicationContext.log Manager: list: Listing contexts for virtual host 'localhost'
+25-May-2021 15:23:04.400 INFO [http-nio-5050-exec-104] org.apache.catalina.core.ApplicationContext.log Manager: undeploy: Undeploying web application at '/MedicalStore'
+25-May-2021 15:23:04.934 INFO [http-nio-5050-exec-109] org.apache.catalina.core.ApplicationContext.log Manager: deploy: Deploying web application '/MedicalStore'
+25-May-2021 15:23:04.934 INFO [http-nio-5050-exec-109] org.apache.catalina.core.ApplicationContext.log Manager: Uploading WAR file to /Users/srikanthgirimaiahgari/Desktop/Medicalstore/apache-tomcat-8.5.65/webapps/MedicalStore.war
