@@ -47,7 +47,7 @@ pipeline {
 
          stage("Trigger Nexus Job"){
 	        steps{
-		           build wait: false, job: 'MedicalStore2'
+		           build wait: true, job: 'MedicalStore2'
                }
               }
 
